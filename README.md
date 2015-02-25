@@ -8,7 +8,7 @@ Because we've set DataContext, we can all kind of "magic" stuff in MainWindow.xa
 
 `<TextBox Text="{Binding Input}" />` - binds to string property from MainWindowViewModel.cs
 
-`<Button Command="{Binding ValidateCmd}">Validate</Button>` - which will trigger Validate function from MainWindowViewModel.cs
+`<Button Command="{Binding ValidateCmd}">Validate</Button>` - which will trigger DoValidate function from MainWindowViewModel.cs
 
 ---
 
